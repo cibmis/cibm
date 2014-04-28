@@ -1,0 +1,70 @@
+//
+// Page Contents
+// --------------------------
+
+main {
+	padding-top: 20px;
+	padding-bottom: 40px;
+	[class*="col-"] {
+		h1, h2, h3, h4 {
+			clear: both;
+			padding-top: 20px;
+			@media (min-width: @screen-sm-min) {
+				&:first-child {
+					margin-top: 0;
+					padding-top: 0;
+				}
+			}
+		}
+	}
+	.content-primary {
+		font-size: @font-size-large;
+	}
+	.content-tertiary {
+		font-size: @font-size-small;
+	}
+	// Make columns clear floats in narrow viewport single-column layout
+	@media (max-width: @screen-xs-max) {
+		[class^="col"] {
+			clear: both;
+			padding-bottom: 40px;
+		}
+	}
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Pad the edges of the mobile views a bit */
+.marketing {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
