@@ -7131,6 +7131,9 @@ main .content-tertiary {
     padding-bottom: 40px;
   }
 }
+.logo {
+  height: 150px;
+}
 /* MARKETING CONTENT
 -------------------------------------------------- */
 /* Pad the edges of the mobile views a bit */
