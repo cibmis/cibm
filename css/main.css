@@ -7135,10 +7135,17 @@ main .content-tertiary {
   height: 50px;
 }
 .spacer {
-  padding-top: 20px;
+  margin-top: 20px;
 }
 .footer-logo {
   height: 20px;
+}
+@media (min-width: 768px) {
+  .row-background {
+    background-color: #5EDDAA;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 }
 /* MARKETING CONTENT
 -------------------------------------------------- */
