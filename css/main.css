@@ -7137,6 +7137,9 @@ main .content-tertiary {
 .spacer {
   padding-top: 20px;
 }
+.footer-logo {
+  height: 30px;
+}
 /* MARKETING CONTENT
 -------------------------------------------------- */
 /* Pad the edges of the mobile views a bit */
