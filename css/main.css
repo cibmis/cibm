@@ -7141,6 +7141,13 @@ main .content-tertiary {
 .footer-logo {
   height: 20px;
 }
+.anchor {
+  color: #428bca;
+  text-decoration: none;
+}
+.anchor:hover {
+  color: #428bca;
+}
 @media (min-width: 768px) {
   .row-background {
     background-color: #5EDDAA;
@@ -7182,9 +7189,6 @@ main .content-tertiary {
   font-weight: 300;
   line-height: 1;
   letter-spacing: -1px;
-}
-.avenue {
-  color: #00A000;
 }
 #welcome {
   height: 300px;
